@@ -1,0 +1,61 @@
+name: Build FoXray geosite rule set
+
+on:
+  push:
+    paths:
+      - "source/skuf-direct-ru"
+      - ".github/workflows/build-geosite.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout skuf-rules
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "stable"
+
+      - name: Checkout v2fly domain-list-community
+        uses: actions/checkout@v4
+        with:
+          repository: v2fly/domain-list-community
+          path: tools/domain-list-community
+
+      - name: Prepare custom data
+        run: |
+          cp source/skuf-direct-ru tools/domain-list-community/data/skuf-direct-ru
+
+      - name: Build dlc.dat
+        working-directory: tools/domain-list-community
+        run: |
+          go run ./ --datapath=./data
+
+      - name: Copy result
+        run: |
+          mkdir -p dist
+          cp tools/domain-list-community/dlc.dat dist/skuf-direct-ru.dat
+          ls -lh dist/skuf-direct-ru.dat
+
+      - name: Commit generated dat if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add dist/skuf-direct-ru.dat
+
+          if git diff --cached --quiet; then
+            echo "No changes in dist/skuf-direct-ru.dat"
+          else
+            git commit -m "Build FoXray geosite rule set"
+            git push
+          fi
