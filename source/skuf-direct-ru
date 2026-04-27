@@ -256,3 +256,217 @@ domain:vgtrk.ru
 domain:matchtv.ru
 domain:more.tv
 domain:kion.ru
+
+
+# -------------------------
+# v2 expansion: Gosuslugi / public services
+# -------------------------
+domain:www.gosuslugi.ru
+domain:lk.gosuslugi.ru
+domain:api.gosuslugi.ru
+domain:epgu.gosuslugi.ru
+domain:mobile.gosuslugi.ru
+domain:pos.gosuslugi.ru
+domain:dom.gosuslugi.ru
+domain:esia-portal1.gosuslugi.ru
+domain:esia-portal2.gosuslugi.ru
+domain:esia-portal3.gosuslugi.ru
+domain:esia-portal4.gosuslugi.ru
+domain:esia-portal5.gosuslugi.ru
+domain:esia-portal6.gosuslugi.ru
+domain:esia-portal7.gosuslugi.ru
+domain:esia-portal8.gosuslugi.ru
+domain:esia-portal9.gosuslugi.ru
+domain:esia-portal10.gosuslugi.ru
+domain:esia-portal11.gosuslugi.ru
+domain:esia-portal12.gosuslugi.ru
+domain:esia-portal13.gosuslugi.ru
+domain:esia-portal14.gosuslugi.ru
+domain:esia-portal15.gosuslugi.ru
+domain:esia-portal16.gosuslugi.ru
+domain:esia-portal17.gosuslugi.ru
+domain:esia-portal18.gosuslugi.ru
+domain:esia-portal19.gosuslugi.ru
+domain:esia-portal20.gosuslugi.ru
+domain:gisee.ru
+domain:gisee.gov.ru
+domain:gosuslugi41.ru
+domain:gosuslugi71.ru
+domain:gosuslugi29.ru
+
+# -------------------------
+# v2 expansion: Wildberries / WB
+# -------------------------
+domain:wbstatic.net
+domain:static.wbstatic.net
+domain:wbbasket.ru
+domain:static-basket-04.wb.ru
+domain:static-basket-05.wb.ru
+domain:static-basket-06.wb.ru
+domain:static-basket-07.wb.ru
+domain:static-basket-08.wb.ru
+domain:static-basket-09.wb.ru
+domain:static-basket-10.wb.ru
+domain:basket-04.wb.ru
+domain:basket-05.wb.ru
+domain:basket-06.wb.ru
+domain:basket-07.wb.ru
+domain:basket-08.wb.ru
+domain:basket-09.wb.ru
+domain:basket-10.wb.ru
+domain:basket-11.wb.ru
+domain:basket-12.wb.ru
+domain:basket-13.wb.ru
+domain:basket-14.wb.ru
+domain:basket-15.wb.ru
+domain:basket-16.wb.ru
+domain:basket-17.wb.ru
+domain:basket-18.wb.ru
+domain:basket-19.wb.ru
+domain:basket-20.wb.ru
+
+# -------------------------
+# v2 expansion: Ozon
+# -------------------------
+domain:ozone.ru
+domain:ozon-st.cdn.ngenix.net
+domain:ozoncdn.com
+domain:cdn.ozon.ru
+domain:static.ozone.ru
+domain:tracking.ozon.ru
+
+# -------------------------
+# v2 expansion: Yandex auth / CDN / mobile
+# -------------------------
+domain:yandex-team.ru
+domain:yandexadexchange.net
+domain:yandexads.com
+domain:yandexadservices.com
+domain:avatars.mds.yandex.net
+domain:mc.yandex.ru
+domain:mc.yandex.com
+domain:appmetrica.yandex.ru
+domain:appmetrica.yandex.com
+domain:api-maps.yandex.ru
+domain:mobileproxy.passport.yandex.net
+
+# -------------------------
+# v2 expansion: VK / Mail / CDN
+# -------------------------
+domain:vk-apps.com
+domain:vk-apps.ru
+domain:vkpay.ru
+domain:vkpay.io
+domain:vklink.ru
+domain:vk-portal.net
+domain:vkuserlive.net
+domain:vkuservideo.net
+domain:vkuservideo.ru
+domain:userapi.com
+domain:vkuser.net
+domain:vkusercdn.net
+domain:vkcache.com
+domain:mailimg.ru
+domain:mailstatic.ru
+
+# -------------------------
+# v2 expansion: Sber ecosystem
+# -------------------------
+domain:sberbank-online.ru
+domain:sberdevices.ru
+domain:sberhealth.ru
+domain:sberid.ru
+domain:sberid.com
+
+# -------------------------
+# v2 expansion: T-Bank / Tinkoff
+# -------------------------
+domain:tcsbank.ru
+domain:tinkoffjournal.ru
+domain:t-j.ru
+domain:cdn.tbank.ru
+domain:cdn.tinkoff.ru
+
+# -------------------------
+# v2 expansion: Alfa / VTB / Gazprombank
+# -------------------------
+domain:alfastrah.ru
+domain:alfa-direct.ru
+domain:vtb24.ru
+domain:vtbreg.ru
+domain:vtbcapital.ru
+domain:gpbl.ru
+
+# -------------------------
+# v2 expansion: Payment / acquiring / auth
+# -------------------------
+domain:3ds.nspk.ru
+domain:acs.nspk.ru
+domain:securepayments.sberbank.ru
+domain:securepayments.tinkoff.ru
+domain:securepay.tinkoff.ru
+domain:ecom.alfabank.ru
+domain:pay.alfabank.ru
+domain:pay.vtb.ru
+domain:pay.gazprombank.ru
+domain:qr.nspk.ru
+domain:qr.sbp.nspk.ru
+
+# -------------------------
+# v2 expansion: Mobile operators
+# -------------------------
+domain:moskva.mts.ru
+domain:spb.mts.ru
+domain:api.mts.ru
+domain:id.mts.ru
+domain:api.megafon.ru
+domain:id.megafon.ru
+domain:api.beeline.ru
+domain:id.beeline.ru
+domain:login.beeline.ru
+domain:api.tele2.ru
+domain:id.tele2.ru
+domain:lk.tele2.ru
+domain:api.t2.ru
+domain:id.t2.ru
+domain:lk.t2.ru
+
+# -------------------------
+# v2 expansion: Government / business services
+# -------------------------
+domain:egrul.nalog.ru
+domain:ofd.nalog.ru
+domain:lkfl.nalog.ru
+domain:bo.nalog.ru
+domain:ofd.ru
+domain:ofd-ya.ru
+domain:ofd-yandex.ru
+domain:platformaofd.ru
+domain:firstofd.ru
+domain:taxcom.ru
+domain:ofd.taxcom.ru
+domain:kontur-extern.ru
+domain:extern.kontur.ru
+domain:ca.kontur.ru
+domain:focus.kontur.ru
+domain:elba.kontur.ru
+domain:diadoc.kontur.ru
+domain:online.sbis.ru
+domain:saby.ru
+
+# -------------------------
+# v2 expansion: Market / classifieds / transport
+# -------------------------
+domain:static.cian.ru
+domain:api.cian.ru
+domain:img.cian.ru
+domain:cdn.cian.site
+domain:avito.st
+domain:api.avito.ru
+domain:auto.ru
+domain:autoload.avito.ru
+domain:drom.ru
+domain:static.drom.ru
+domain:cdn.drom.ru
+domain:ticket.rzd.ru
+domain:api.rzd.ru
